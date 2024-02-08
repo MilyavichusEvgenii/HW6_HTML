@@ -25,6 +25,7 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1146px;
+  min-width: 630px;
 }
 .header {
   width: 100%;
@@ -985,6 +986,7 @@ body {
   }
 
   .f__block1 {
+    order: 1;
     width: 100%;
   }
 
@@ -1006,8 +1008,10 @@ body {
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     margin-bottom: 33px;
+    display: flex;
+    align-self: center;
   }
 
   .f__b1__content2 {
@@ -1043,6 +1047,9 @@ body {
   }
 
   .f__block2 {
+    display: flex;
+    flex-direction: column;
+    order: 0;
     width: 100%;
   }
 
@@ -1057,12 +1064,16 @@ body {
     font-weight: 250;
     line-height: 16px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     opacity: 0.6;
   }
 
   .f__block3 {
+    order: 3;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .f__b3__p {
